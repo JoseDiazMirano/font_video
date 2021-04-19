@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.header{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: 0px;
+}
+.header ul{
+    padding-left: 0;
+}
+.header .nav{
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    position: absolute;
+    transform: all 0.3s;
+    background-color: #ffffff8c;
+    z-index: 9;
+    top: 0px;
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav ul li{
+    display: flex;
+}
+.nav ul li a{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    color: #333;
+    padding: 0.25rem;
+    margin: 0 1.80rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav ul li .efects_link:hover{
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+.nav ul li.logo{
+    margin: 0 4rem;
+}
+video#hercvideo{
+    width: 100%;
+}
+.vidContent{
+    position: absolute;
+    top: 215px;
+    color: #fff;
+    width: 70%;
+    padding: 10px;
+    text-align: left;/*DEPENDE DE SU GUSTO*/
+}
+.vidContent h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10em;
+    font-weight: 800;
+    color: #000;
+    text-transform: inherit;
+}
+.vidContent h1::first-letter{
+    color: #47e3b6;
+}
+.vidContent p{
+    font-size: 2em;
+    margin-bottom: 3rem;
+    color: #333;
+}
+.serach_button{
+    margin-top: 3rem;
+    padding: 18px;
+    background: #ffffff00;
+    color: #47e3b6;
+    border: 2px solid #47e3b6;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    animation: shadow-pulse 2s infinite;
+    text-decoration: none;
+}
+.serach_button:hover{
+    background: #47e3b6;
+    color: white;
+}
+@keyframes shadow-pulse{
+    0%{
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    }
+    10%{
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,151);
+    }
+    100%{
+        box-shadow: 0px 0px 0px 20px rgba(128,84,84,0.24);
+    }
+}
+
